@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<style>
+    .container{
+        padding: 10px;
+        margin: 10px;
+    }
+    .col{
+        border: black;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div >
+        <h1>Responsive Image Gallery</h1>
+        <h5>Resize the browser window to see the effect.</h5>
+    </div>
+
+        <div class="container">
+            <div class="row row-cols-3">
+                <div class="col">
+                    <img src="img_fjords.jpg" height="200px" width="300px"/>
+                    <p>Add a description of the image here</p>
+                </div>
+
+                <div class="col">
+                    <img src="img_forest.jpg" height="200" width="300"/>
+                    <p>Add a description of the image here</p>
+                </div>
+                <div class="col">
+                    <img src="img_lights.jpg" height="200" width="300"/>
+                    <p>Add a description of the image here</p>
+                </div>
+
+                <div class="col">
+                    <img src="img_mountains.jpg" height="200" width="300"/>
+                    <p>Add a description of the image here</p>
+                </div>
+            </div>
+    </div>
+    <div>
+        <p>This example use media queries to re-arrange the images on different screen
+            sizes: for screens larger than 700px wide, it will show four images side by side,
+            for screens smaller than 700px, it will show two images side by side. For screens
+            smaller than 500px, the images will stack vertically (100%).</p>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+</html>
